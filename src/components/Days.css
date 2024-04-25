@@ -1,0 +1,35 @@
+.day-cont {
+  margin: 0;
+  display: flex;
+  padding-left: 1rem;
+  /* border: 2px solid green; */
+  box-sizing: border-box;
+}
+.day {
+  /* border: 2px solid white; */
+  width: 25%;
+  font-size: large;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: hsl(0, 1%, 63%);
+}
+.status {
+  display: flex;
+  /* border: 2px solid green; */
+  width: 50%;
+}
+.status > p {
+  margin-left: 0.3rem;
+  font-size: large;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: hsl(0, 1%, 63%);
+}
+.Ftemp {
+  /* border: 2px solid white; */
+  width: 25%;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}

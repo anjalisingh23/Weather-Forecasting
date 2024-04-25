@@ -1,0 +1,140 @@
+
+ .currentContainer{
+    box-shadow: 0 2px 6px rgba(14, 245, 241, 0.974);
+    transition: box-shadow 0.3s ease;
+    border: 2px solid transparent; 
+    width: 50%;
+    background-color: rgb(16, 8, 98);
+    color: azure;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+.currentContainer:hover{
+    box-shadow: 0 8px 16px rgba(14, 245, 241, 0.974);
+}
+.city{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.city>p{
+    margin: 0;
+}
+.city>img{
+    width: 10%;
+    height: 100%;
+}
+.status-cont{
+    margin: 1rem;
+    /* border: 2px solid yellow; */
+    display: flex;
+    margin-bottom: 2rem;
+}
+.temp-cont{
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.temp{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0.5rem 0  0;
+    /* border: 2px solid red; */
+}
+.weath{
+ text-align: center;
+    letter-spacing: 2px;
+    font-size: larger;
+    font-weight: 600;
+    margin: 0;
+   /* border: 2px solid red; */
+}
+.date{
+    text-align: center;
+    margin: 0;
+    /* border: 2px solid red; */
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: hsl(0, 1%, 63%);
+ }
+
+.main-icon{
+    /* border: 2px solid green; */
+    width: 50%;
+    margin: 0;
+}
+.main-icon>img{
+    /* border: 1px solid ; */
+    width: 50%;
+    height: 100%;
+}
+
+.sun-cont{
+    margin: 1rem;
+    display: flex;
+    /* border: 2px solid red;  */
+}
+.sunrise{
+    width: 50%;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.icon{
+    /* border: 2px solid green; */
+    width: 20%;
+}
+.icon>img{
+    width: 100%;
+}
+.txt{
+    width: 80%;
+}
+
+hr{
+    margin: 1rem;
+    border: none; 
+  height: 2px;
+  padding: 0; 
+  background-color: #5b5858; 
+}
+
+.windHum{
+    margin: 1rem;
+    display: flex;
+    /* border: 2px solid yellow; */
+}
+.wind{
+    /* border: 1px solid white; */
+    width: 50%;
+}
+.speed{
+    text-align: left;
+    margin: 0;
+    /* border: 2px solid red; */
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: hsl(0, 1%, 63%);
+    margin-left: 2rem;
+}
+.value{
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: larger;
+    font-weight: 600;
+    margin:0;
+    margin-left: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .currentContainer{
+        width: 100%;
+        
+    }
+  }
